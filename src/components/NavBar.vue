@@ -1,10 +1,18 @@
 <template>
   <nav>
     <ul>
-      <a href=""><li>Home</li></a>
-      <a href=""><li>Contact</li></a>
-      <a href=""><li>Setting</li></a>
-      <a href=""><li>About Us</li></a>
+      <router-link to="/home"
+        ><a href=""><li>Home</li></a></router-link
+      >
+      <router-link to="/contact"
+        ><a href=""><li>Contact</li></a></router-link
+      >
+      <router-link to="/setting"
+        ><a href=""><li>Setting</li></a></router-link
+      >
+      <router-link to="/about"
+        ><a href=""><li>About Us</li></a></router-link
+      >
     </ul>
   </nav>
 </template>
@@ -14,22 +22,5 @@ export default {
 };
 </script>
 <style>
-ul {
-  display: flex;
-  justify-content: center;
-  padding: 10px;
-}
-li {
-  list-style: none;
-  margin: 10px;
-  font-size: 1.5rem;
-  font-weight: bold;
-}
-a {
-  color: black;
-  text-decoration: none;
-}
-a:hover {
-  color: red;
-}
+@import url("../css/navbar.css");
 </style>

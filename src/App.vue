@@ -4,7 +4,8 @@
     <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
     <!-- <NewHelloWorld /> -->
     <!-- <Home msg="Data Binding Example" /> -->
-    <NavBar />
+    <!-- <NavBar /> -->
+    <router-view></router-view>
   </div>
 </template>
 
@@ -12,7 +13,7 @@
 // import HelloWorld from './components/HelloWorld.vue'
 /* import NewHelloWorld from "./components/NewHelloWorld.vue";
 import Home from "./components/Home.vue"; */
-import NavBar from "./components/NavBar.vue";
+// import NavBar from "./components/NavBar.vue";
 
 export default {
   name: "App",
@@ -20,7 +21,7 @@ export default {
     // HelloWorld
     /* NewHelloWorld,
     Home, */
-    NavBar,
+    // NavBar,
   },
 };
 </script>
