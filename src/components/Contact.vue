@@ -1,14 +1,11 @@
 <template>
   <div>
-    <h1>Home Component</h1>
+    <h1>Contact Component</h1>
   </div>
 </template>
 <script>
 export default {
-  name: "Home",
-  props: {
-    msg: String,
-  },
+  name: "Contact",
 };
 </script>
 <style>
