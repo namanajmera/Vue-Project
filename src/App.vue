@@ -3,18 +3,21 @@
     <img alt="Vue logo" src="./assets/logo.png" />
     <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
     <NewHelloWorld />
+    <Home msg="Data Binding Example" />
   </div>
 </template>
 
 <script>
 // import HelloWorld from './components/HelloWorld.vue'
 import NewHelloWorld from "./components/NewHelloWorld.vue";
+import Home from "./components/Home.vue";
 
 export default {
   name: "App",
   components: {
     // HelloWorld
     NewHelloWorld,
+    Home,
   },
 };
 </script>
